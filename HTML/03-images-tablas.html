@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Imagenes,Tablas </title>
+    </head>
+    <body>
+        <h1>Imagenes,Tablas, formularios</h1>
+        <h2>Imagenes</h2>
+        <p>Las imagenes en html se colocan via etiqueta img entre los atributos más importantes para esta etiqueta esta el scr  que le indica donde debe buscar la imagen en cuestion, "alt" le indica un texto alternativo en caso de que la imagen no pueda ser cargada </p>
+        <p>En caso de quere que aparezca un mensaje apenas posicionamos el cursor en la imagen usamos la etiqueta title </p>
+        <p><strong>Ejemplo:</strong></p>
+        <img src="https://i.blogs.es/368cbc/eta-carinae/1366_2000.jpg" alt="Supernova ethacarinae" width="600">
+
+        <img src="nebcan.jpg" alt="Nebulosa del cangrejo" title="Nebulosa del cangrejo" >
+        <img src="https://wallpapercave.com/wp/wp7670462.jpg" alt="" width="60%">
+
+        <hr/>
+
+        <h2>Tablas</h2>
+
+        <table border="1" align="center">
+            <tr>
+                <th>Horario</th>
+                <th>Asignatura</th>
+            </tr>
+            <tr>
+                <td> 7:00-9:00 </td>
+                <td> Algoritmos </td>
+            </tr>
+            <tr>
+                <td> 9:00-11:00</td>
+                <td> Bases de datos</td>
+            </tr>
+            <tr>
+                <td> 11:00-1:00</td>
+                <td> Microcontroladores</td>
+            </tr>
+        </table>
+        
+        <hr>
+
+        <strong>Ejercicio 1: Haz un horario</strong>
+
+        <table border="1" align="center">
+            <tr><th>Horario</th></tr>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>7-9</td>
+                <td>Mecánica de medios continuos</td>
+                <td>Cálculo 2</td>
+                <td>Teoría electromagnética</td>
+                <td>Mecánica de medios continuos</td>
+                <td>Seminario de proyectos</td>
+            </tr>
+            <tr>
+                <td>9-11</td>
+                <td>Computación 1</td>
+                <td>Métodos numéricos</td>
+                <td>Lab de teoría electromagnética</td>
+                <td>Lab de Mecánica de medios continuos</td>
+                <td>Seminario de proyectos</td>
+            </tr>
+            <tr>
+                <td>11-13</td>
+                <td>Cálculo 2</td>
+                <td>Teoría electromagnética</td>
+                <td>Métodos numéricos</td>
+                <td></td>
+                <td>Calculo 2</td>
+            </tr>
+        </table>
+        <br/>
+        <hr/>
+
+        <p><strong>Ejemplo uniendo las celdas "td's" "tr's"  y "th's</strong></p>
+        <table border="1" align="center">
+            <tr><th colspan="6">Horario</th></tr>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <td>7-9</td>
+                <td>Mecánica de medios continuos</td>
+                <td>Cálculo 2</td>
+                <td>Teoría electromagnética</td>
+                <td>Mecánica de medios continuos</td>
+                <td>Seminario de proyectos</td>
+            </tr>
+            <tr>
+                <td>9-11</td>
+                <td>Computación 1</td>
+                <td>Métodos numéricos</td>
+                <td>Lab de teoría electromagnética</td>
+                <td rowspan="2">Lab de Mecánica de medios continuos</td>
+                <td>Seminario de proyectos</td>
+            </tr>
+            <tr>
+                <td>11-13</td>
+                <td>Cálculo 2</td>
+                <td>Teoría electromagnética</td>
+                <td>Métodos numéricos</td>
+            
+                <td>Calculo 2</td>
+            </tr>
+        </table>
+        <br/>
+        <hr/>
+        <p><strong>Ejercicio 2: Replica una imagen de muestra</strong></p>
+        <br/>
+        <table border="1" align="center">
+            <tr>
+                <td>Rojo</td>
+                <td colspan="2" align="center">Verde</td>
+            </tr>
+            <tr>
+                <td>Café</td>
+                <td>Marrón</td>
+                <td>Tinto</td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"> Naranja</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"> Blanco</td>
+                <td>Negro</td>
+            </tr>
+        </table>
+        <br/>
+        <hr/>
+    
+    </body>
+</html>
