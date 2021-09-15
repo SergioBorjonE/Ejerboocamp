@@ -1,0 +1,25 @@
+h1{
+    color : orangered;
+    text-align: center;
+    vertical-align: center;
+    }
+.p_large{
+    font-size: 32px;
+}
+    
+.p_green{
+    color: green;
+    background-color: black;
+    font-size: 32px;
+    }
+
+.p_red{
+    color: red;
+    background-color: yellow;
+    font-size: 32px;
+    }
+
+#title{
+    color:orangered;
+    font-size: 50px;   
+}

@@ -1,0 +1,44 @@
+body{
+    background-image: url("spring-wallpaper.svg");
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    color: steelblue;
+    border: 2px solid steelblue;
+    margin: 0px;
+}
+
+.subtitle{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 2mm;
+    margin: 0px;
+}
+
+#caja, #caja2 {
+    background-color: black;
+    margin: 0px;
+}
+
+#caja{
+    width: 400px;
+    padding: 1px;
+    margin: 0px auto;
+}
+
+#caja p{
+    color: white;
+    text-align: justify;
+}
+
+#caja2 p{
+    color:green;
+    text-align: justify;
+}

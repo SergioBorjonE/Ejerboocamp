@@ -1,0 +1,34 @@
+body{
+    background-color: #c6d9ee;
+}
+
+h1{
+    text-align: right;
+}
+
+.tit{
+    font-family:"Comic sans MS" ;
+    color: red;
+}
+
+.cont{
+    color: #d1691e;
+    font-weight: bold;
+}
+
+.ucont{
+    background-color: white;
+    color: green;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+}

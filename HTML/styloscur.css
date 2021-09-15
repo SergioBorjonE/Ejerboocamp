@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:#393D42 ;
+    font-size: 22px;
+}
+
+.titulos{
+    text-align: left;
+    text-transform: capitalize;
+    color: red;
+    background-color: gray;
+}
+
+.normal{
+    background-color: lightgray;
+}
+
+.years{
+    color: green;
+}
+
+.enf{
+    color: blue;
+}
+
+.subtitulos{
+    color: blueviolet;
+    background-color: rgb(121, 120, 120,0.7);
+}
+
+u{
+	color: blue;
+    font-weight: bold;
+}
+
+span{
+	font-weight: light;
+	color: green ;
+}
+
