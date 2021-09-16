@@ -1,0 +1,33 @@
+.title{
+    font-family:'Bona Nova',serif;
+    font-weight: 900;
+}
+
+.name1{
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+    font-weight: 900;
+    font-style: italic;
+}
+.name2{
+    font-family: 'Open Sans', sans-serif;
+    color: orangered;
+    font-weight: 200;
+    font-style: oblique;
+}
+.name3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: crimson;
+}
+.name4{
+    font-family: 'Titillium Web', sans-serif;
+    color: salmon;
+}
+.name5{
+    font-family: 'Ubuntu', sans-serif;
+    color: springgreen;
+}
+
+
+
+
